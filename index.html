@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <title>Survey Form</title>
+</head>
+<style>
+    body{
+        margin: 50px 300px;
+        border: 1px solid black;
+    }
+    .main{
+        width: 680px;
+        height: 30px;
+        font-weight: lighter;
+        background-color: lightgrey;
+        margin-left: 10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .place{
+        position: relative;
+        left: 5px;
+        top: 2px;
+    }
+    .place1{
+        position: relative;
+        top: 3px;
+    }
+    .main1{
+        width: 680px;
+        height: 30px;
+        font-weight: lighter;
+        margin-left:  10px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .place2{
+        position: relative;
+        left: 5px;
+        top: 2px;
+    }
+    .place3{
+        position: relative;
+        top: 3px;
+    }
+    .place6{
+        position: relative;
+        bottom: 10px;
+    }
+    .main2{
+        width: 680px;
+        height: 48px;
+        font-weight: lighter;
+        background-color: lightgrey;
+        margin:  20px 0px 0px 10px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        border-bottom-left-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    .place5{
+        position: relative;
+        bottom: 12px;
+    }
+</style>
+<body>
+    <div class="fw-bold" style="margin: 10px;">
+        <label for="">Name</label>
+        <span class="text-danger">*</span><br>
+        <input type="text" name="" id="">
+        <input type="text" name="" id=""><br>
+        <label for="" class="fw-light">First</label>
+        <label for="" class="fw-light" style="margin-left: 165px;">Last</label><br><br>
+        <label for="">Email</label>
+        <span class="text-danger">*</span><br>
+        <input type="text" name="" id="" style="width: 380px;"><br><br>
+        <label for="">Your Experience</label>
+        <span class="text-danger">*</span><br>
+        <label for="">⭐⭐⭐⭐⭐</label><br><br>
+        <label for="" class="fw-light fs-6">Overall how would you rate your experience with us?</label>
+        <br><br>
+        <label for="">How satisfied are you with</label>
+        <span class="text-danger">*</span><br>
+        <div style="text-indent: 30px; margin-left: 130px;">
+         <label for="" class="fw-light fs-6">VeryUnsatisfied</label>
+         <label for="" class="fw-light fs-6">Unsatisfied</label>
+         <label for="" class="fw-light fs-6">Neutral</label>
+         <label for="" class="fw-light fs-6">Satisfied</label>
+         <label for="" class="fw-light fs-6">VerySatisfied</label>
+        </div>
+        <div class="main">
+            <label for="" class="place">Primary</label>
+            <input class="place1" type="radio" name="primary" id="" style="margin-left: 150px;">
+            <input class="place1" type="radio" name="primary" id="" style="margin-left: 120px;">
+            <input class="place1" type="radio" name="primary" id="" style="margin-left: 80px;">
+            <input class="place1" type="radio" name="primary" id="" style="margin-left: 70px;">
+            <input class="place1" type="radio" name="primary" id="" style="margin-left: 70px;">
+        </div>
+        <div class="main1">
+            <label for="" class="place2">Service</label>
+            <input class="place3" type="radio" name="service" id="" style="margin-left: 153px;">
+            <input class="place3" type="radio" name="service" id="" style="margin-left: 120px;">
+            <input class="place3" type="radio" name="service" id="" style="margin-left: 80px;">
+            <input class="place3" type="radio" name="service" id="" style="margin-left: 70px;">
+            <input class="place3" type="radio" name="service" id="" style="margin-left: 70px;">
+        </div>
+        <div class="main">
+            <label for="" class="place">Company Overall</label>
+            <input class="place1" type="radio" name="Company Overall" id="" style="margin-left: 82px;">
+            <input class="place1" type="radio" name="Company Overall" id="" style="margin-left: 120px;">
+            <input class="place1" type="radio" name="Company Overall" id="" style="margin-left: 80px;">
+            <input class="place1" type="radio" name="Company Overall" id="" style="margin-left: 70px;">
+            <input class="place1" type="radio" name="Company Overall" id="" style="margin-left: 70px;">
+        </div>
+        <br>
+        <label for="">How satisfied are you with</label>
+        <span class="text-danger">*</span>
+        <div style="text-indent: 40px; margin-left: 130px;">
+            <label for="" class="fw-light fs-6">VeryUnlikely</label>
+            <label for="" class="fw-light fs-6">Unlikely</label>
+            <label for="" class="fw-light fs-6">Neutral</label>
+            <label for="" class="fw-light fs-6">Likely</label>
+            <label for="" class="fw-light fs-6">VeryLikely</label>
+        </div>
+        <div class="main">
+            <label for="" class="place">Buy from us again</label>
+            <input class="place1" type="radio" name="Buy from us again" id="" style="margin-left: 75px;">
+            <input class="place1" type="radio" name="Buy from us again" id="" style="margin-left: 120px;">
+            <input class="place1" type="radio" name="Buy from us again" id="" style="margin-left: 80px;">
+            <input class="place1" type="radio" name="Buy from us again" id="" style="margin-left: 70px;">
+            <input class="place1" type="radio" name="Buy from us again" id="" style="margin-left: 70px;">
+        </div>
+        <div class="main1">
+            <label for="" class="place2">Recommend our<br>product to others</label>
+            <input class="place6" type="radio" name="Recommend" id="" style="margin-left: 80px;">
+            <input class="place6" type="radio" name="Recommend" id="" style="margin-left: 120px;">
+            <input class="place6" type="radio" name="Recommend" id="" style="margin-left: 80px;">
+            <input class="place6" type="radio" name="Recommend" id="" style="margin-left: 70px;">
+            <input class="place6" type="radio" name="Recommend" id="" style="margin-left: 70px;">
+        </div>
+        <div class="main2">
+            <label for="" class="plac1">Recommend our<br>company to others</label>
+            <input class="place5" type="radio" name="Recommend to others" id="" style="margin-left: 70px;">
+            <input class="place5" type="radio" name="Recommend to others" id="" style="margin-left: 120px;">
+            <input class="place5" type="radio" name="Recommend to others" id="" style="margin-left: 80px;">
+            <input class="place5" type="radio" name="Recommend to others" id="" style="margin-left: 70px;">
+            <input class="place5" type="radio" name="Recommend to others" id="" style="margin-left: 70px;">
+        </div>
+        <br>
+        <label for="">Additional comments or suggestions</label>
+        <br>
+        <textarea name="" id="" cols="90" rows="5"></textarea><br>
+        <input type="submit" value="Submit">
+    </div>
+   
+</body>
+</html>
